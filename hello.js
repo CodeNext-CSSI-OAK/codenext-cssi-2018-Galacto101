@@ -1,7 +1,12 @@
 // Author: Orisegun Origunwa
 
-console.log('Hello Code Next!');
-console.log("It's a beautiful day for programming, isn't it?");
-console.log("Hey! What's 1 + 1?");
-console.log("It's " + 1 + 1 + " of course!");
-console.log("No, it's " + (1 + 1) + ", silly goose!");
+//console.log('Hello Code Next!');
+
+let readline = require('readline-sync');
+
+let age = Number(readline.question ('What is your age'));
+
+//let ageAsACtring = readline.question ('What is your age');
+//let age = Number(readline.question ('What is your age'));
+
+console.log('In 2028 you will be' + (age + 10) + 'years old');
